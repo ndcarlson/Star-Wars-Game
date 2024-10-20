@@ -7,7 +7,7 @@ import math
 class Boss:
     def __init__(self, screen, x, y):
         self.screen = screen
-        self.image = pygame.image.load("final/Medium Enemy.png")
+        self.image = pygame.image.load("Medium Enemy.png")
         self.image.set_colorkey((255, 255, 255))
         self.rectBGimg = self.image.get_rect()
 

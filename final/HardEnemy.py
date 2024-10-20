@@ -8,7 +8,7 @@ class HardEnemy:
         self.x = x
         self.y = y
         self.is_dead = False
-        self.image = pygame.image.load("final/star-wars-tie-advanced-x1-drone.png")
+        self.image = pygame.image.load("star-wars-tie-advanced-x1-drone.png")
         self.rectPlayerimg = self.image.get_rect()
         self.image.set_colorkey((255, 255, 255))
         self.speed = random.randint(5, 15)

@@ -6,7 +6,7 @@ class Menu:
         self.screen = screen
         self.x = x
         self.y = y
-        self.image = pygame.image.load("final/battleFrontMenu2.jpg")
+        self.image = pygame.image.load("battleFrontMenu2.jpg")
         # self.fire_sound = pygame.mixer.Sound("")
 
     def render(self):

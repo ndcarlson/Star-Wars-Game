@@ -6,7 +6,7 @@ class Tutorial:
         self.screen = screen
         self.x = x
         self.y = y
-        self.image = pygame.image.load("final/tutorial.png")
+        self.image = pygame.image.load("tutorial.png")
         # self.fire_sound = pygame.mixer.Sound("")
 
     def render(self):

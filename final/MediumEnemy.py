@@ -8,7 +8,7 @@ class MediumEnemy:
         self.x = x
         self.y = y
         self.is_dead = False
-        self.image = pygame.image.load("final/Medium Enemy.png")
+        self.image = pygame.image.load("Medium Enemy.png")
         self.rectPlayerimg = self.image.get_rect()
         self.image.set_colorkey((255, 255, 255))
         self.speed = random.randint(5, 15)

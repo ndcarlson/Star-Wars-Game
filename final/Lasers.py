@@ -7,7 +7,7 @@ class Lasers:
         self.y = y
         self.screen = screen
         self.has_exploded = False
-        self.image = pygame.image.load("final/Blue Laser.png")
+        self.image = pygame.image.load("Blue Laser.png")
         self.image.set_colorkey((255, 255, 255))
         self.hit_box = pygame.Rect(self.x, self.y, self.image.get_width(), self.image.get_height())
 

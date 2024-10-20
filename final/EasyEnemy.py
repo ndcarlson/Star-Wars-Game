@@ -8,7 +8,7 @@ class Enemy:
         self.x = x
         self.y = y
         self.is_dead = False
-        self.image = pygame.image.load("final/Ti Fighter.png")
+        self.image = pygame.image.load("Ti Fighter.png")
         self.rectPlayerimg = self.image.get_rect()
         self.image.set_colorkey((255, 255, 255))
         self.speed = random.randint(5, 15)

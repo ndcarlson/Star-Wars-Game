@@ -6,7 +6,7 @@ class Start:
         self.screen = screen
         self.x = x
         self.y = y
-        self.image = pygame.image.load("final/load screen.png")
+        self.image = pygame.image.load("load screen.png")
 
     def render(self):
         # if self.y < self.screen.get_height() - 300:

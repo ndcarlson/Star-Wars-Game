@@ -5,7 +5,7 @@ class Length:
         self.screen = screen
         self.x = x
         self.y = y
-        self.image = pygame.image.load("final/dimensionFinder.png")
+        self.image = pygame.image.load("dimensionFinder.png")
         self.image.set_colorkey((255, 255, 255))
         # self.fire_sound = pygame.mixer.Sound("")
 

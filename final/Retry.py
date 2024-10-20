@@ -6,7 +6,7 @@ class Retry:
         self.screen = screen
         self.x = x
         self.y = y
-        self.image = pygame.image.load("final/Retry.jpg")
+        self.image = pygame.image.load("Retry.jpg")
         # self.fire_sound = pygame.mixer.Sound("")
 
     def render(self):

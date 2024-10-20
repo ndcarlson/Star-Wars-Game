@@ -7,7 +7,7 @@ class Player:
         self.screen = screen
         self.x = x
         self.y = y
-        self.image = pygame.image.load('final/NicePng_fairy-wings-side-view_2150322.png')
+        self.image = pygame.image.load('NicePng_fairy-wings-side-view_2150322.png')
         self.rectPlayerimg = self.image.get_rect()
         self.image.set_colorkey((255, 255, 255))
         self.lasers = []
@@ -24,7 +24,7 @@ class Player:
 
     def fire(self):
         self.reload += 1
-        laser_image = pygame.image.load("final/Blue Laser.png")
+        laser_image = pygame.image.load("Blue Laser.png")
         left_lasers = Lasers(self.screen, self.x - laser_image.get_width() // 2 + 4, self.y + 10)
         right_lasers = Lasers(self.screen, self.x + self.image.get_width() - laser_image.get_width() // 2 - 4, self.y + 10)
         self.lasers.append(left_lasers)

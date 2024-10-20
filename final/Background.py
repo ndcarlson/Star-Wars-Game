@@ -6,7 +6,7 @@ from EasyEnemy import Enemy
 class Background:
     def __init__(self, screen):
         self.screen = screen
-        self.bgimage = pygame.image.load("final/deathStarLayout,Dark.jpg")
+        self.bgimage = pygame.image.load("deathStarLayout,Dark.jpg")
         self.rectBGimg = self.bgimage.get_rect()
 
         self.backGroundX1 = 0
